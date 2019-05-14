@@ -152,9 +152,9 @@
     ItalicFont= Source Sans Pro Light Italic]
 }
 {
-  \setmainfont{SourceSansPro-Light}[
+  \setmainfont{SourceSansPro-Regular}[
     Path = fonts/,
-    BoldFont = SourceSansPro-Regular,
+    BoldFont = SourceSansPro-Bold,
     ItalicFont = SourceSansPro-LightIt]
 }
 
