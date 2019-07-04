@@ -294,7 +294,7 @@
         \idphoto
       \end{minipage}
     }{}
-    \resumetitle{\@tagline}
+    %\resumetitle{\@tagline}  @pawan commented out the developer tag line
   }{
     \ifundef{\@photodiameter}{
       \begin{minipage}{\linewidth}
@@ -302,8 +302,8 @@
       \begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}
     }
     \user{\@firstname}{\@lastname}\\
-    \resumetitle{\@tagline}
-    \smallskip\\
+    %\resumetitle{\@tagline} @pawan commented out the developer tag line
+    %\smallskip\\ @pawan commented out due to the developer tag line
     \small{\@socialinfo}
     \end{minipage}
     \ifdef{\@photodiameter}{
@@ -311,7 +311,7 @@
         \idphoto
       \end{minipage}
     }{}
-    \bigskip
+    %\bigskip @pawan commented out line to reduce extra while space in header
   }
 }
 
